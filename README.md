@@ -12,6 +12,10 @@
 3. Type `Share Selected Code`
 4. Enjoy awesomeness! 🌈
 
+## What's new?
+
+See [CHANGELOG.md](CHANGELOG.md)
+
 ## Installation
 
 Hit `Ctrl + P` and type `ext install hellovietduc.code-share`
@@ -26,4 +30,4 @@ Hit `Ctrl + P` and type `ext install hellovietduc.code-share`
 
 ## License
 
-This project uses the following license: [MIT](./LICENSE)
+This project uses the following license: [MIT](LICENSE)
