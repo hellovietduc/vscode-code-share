@@ -5,7 +5,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/hellovietduc/vscode-code-share?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/hellovietduc/vscode-code-share?style=social)
 
-> Instantly share your code to the world.
+> Instantly share your code with the world.
 
 1. Select the code you want to share
 2. Hit `Ctrl + Shift + P`

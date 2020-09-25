@@ -1,7 +1,7 @@
 {
 	"name": "code-share",
 	"displayName": "Code Share",
-	"description": "Instantly share your code to the world",
+	"description": "Instantly share your code with the world",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.49.2"
