@@ -1,12 +1,15 @@
 {
 	"compilerOptions": {
 		"module": "commonjs",
-		"target": "es6",
-		"checkJs": false,  /* Typecheck .js files. */
+		"target": "esnext",
+		"checkJs": false,
 		"lib": [
-			"es6"
+			"esnext"
 		]
 	},
+	"include": [
+		"src/**/*"
+	],
 	"exclude": [
 		"node_modules"
 	]

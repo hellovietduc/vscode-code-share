@@ -1,25 +1,26 @@
 {
+	"extends": [
+		"airbnb-base",
+		"@vietduc"
+	],
 	"env": {
-		"browser": false,
 		"commonjs": true,
-		"es6": true,
-		"node": true,
 		"mocha": true
 	},
 	"parserOptions": {
-		"ecmaVersion": 2018,
 		"ecmaFeatures": {
 			"jsx": true
-		},
-		"sourceType": "module"
+		}
 	},
 	"rules": {
-		"no-const-assign": "warn",
-		"no-this-before-super": "warn",
-		"no-undef": "warn",
-		"no-unreachable": "warn",
-		"no-unused-vars": "warn",
-		"constructor-super": "warn",
-		"valid-typeof": "warn"
+		"import/no-unresolved": [
+			"error",
+			{
+				"ignore": [
+					"vscode"
+				]
+			}
+		],
+		"no-console": "off"
 	}
 }
