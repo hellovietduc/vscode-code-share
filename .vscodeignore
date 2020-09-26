@@ -2,7 +2,8 @@
 .vscode-test/**
 test/**
 .gitignore
-.yarnrc
 **/jsconfig.json
 **/*.map
 **/.eslintrc.json
+**/.huskyrc.json
+config.example.json
