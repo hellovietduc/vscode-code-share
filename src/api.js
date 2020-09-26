@@ -9,12 +9,12 @@ const request = axios.create(config.axios);
  */
 const postCode = code => request.post('/code', { code })
     .then(res => {
-        const { codeURL } = res.data;
-        if (res.status !== 201 || !codeURL) {
+        const { url } = res.data;
+        if (res.status !== 201 || !url) {
             console.error('post code failed:', res.data);
             return;
         }
-        return codeURL;
+        return url;
     })
     .catch(err => {
         console.error('post code error:', err);
